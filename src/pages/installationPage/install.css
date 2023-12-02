@@ -1,0 +1,55 @@
+.installation-container{
+    width: 80%;
+    min-height: calc(100vh - 182px);
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section{
+  width: 60%;
+  min-height: 10rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background-color: var(--disable-color);
+  font-family: poppins;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.about-section h4 span {
+    font-family: Roboto;
+    font-size: 1.4rem;
+    color: var(--negative-color);
+  }
+
+  .installation-link{
+    width: 70%;
+    height: 16rem;
+    margin-top: 3rem; 
+  }
+
+  .nav-btn-section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .foot-item{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .foot-item:hover{
+    text-shadow: 2px 2px var(--disable-color);
+    cursor: pointer;
+    
+  }

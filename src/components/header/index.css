@@ -1,14 +1,12 @@
 .Header {
-    width: 100%;
+    width: 100vw;
     height: 60px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    overflow: hidden;
-    z-index: 1;
   }
   
   .title {
@@ -16,7 +14,7 @@
     font-size: 1.5vw;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    margin-left: 2rem;
     font-family: smooch;
     letter-spacing: 2px;
   }
@@ -28,8 +26,8 @@
   .other-sections {
     display: flex;
     align-items: center;
+    margin-right: 4rem;
     gap: 2rem;
-    padding-right: 30px;
     color: var(--secondary-color);
     font-family: poppins;
     font-size: 1.1rem;
