@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Smooch&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@0;1&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Smooch&display=swap');
 * {
   margin: 0rem;
   padding: 0rem;
@@ -207,21 +206,55 @@ main {
 }
 
 .sidebar-content{
-  width: 20%;
+  width: 15%;
   height: 100%;
 }
 
 .sidebar-container{
   margin-top: 4rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-
+.page-content {
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
 
 .main-content{
-  width: 80%;
+  width: 85%;
   height:100%;
-  padding: 2rem 0;
+  padding: 2rem;
+}
+
+
+.clh1{
+  color: #2c7093;
+}
+.clh4 {
+  color: var(--primary-color);
+  margin-bottom: 0.7rem;
+  border-bottom: 2px dashed var(--secondary-color);
+}
+
+.description {
+  margin: 1.5rem auto;
+}
+
+.section {
+  margin: 2rem 0rem;
+}
+
+.side-nav ul li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.code-example-block {
+  margin: 3rem auto;
+  opacity: 0.8;
+  width: 100%;
+  text-align: center;
 }

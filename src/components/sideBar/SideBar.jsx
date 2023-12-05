@@ -5,8 +5,6 @@ import "../../css/main.css";
 import "./sidebar.css"
 
 const SideBar = () => {
-
-
     const getStyles = ({ isActive }) => ({
         color: isActive ? "#3A93C0": "#3A93C0",
         textDecoration:"none",
@@ -14,7 +12,6 @@ const SideBar = () => {
         fontSize: isActive ? "1.3rem": "1.1rem",
         
       });
-
   return (
     <div className='content sideBar'>
         <ul className='sidebar-list' >
@@ -28,9 +25,37 @@ const SideBar = () => {
                 ))
             }
         </ul>
-        
+        <div className='horizontal'></div>
     </div>
   )
 }
 
-export default SideBar
+
+const TopBar = ()=>{
+    const getStyles = ({ isActive }) => ({
+        color: isActive ? "#3A93C0": "#3A93C0",
+        textDecoration:"none",
+        fontWeight: isActive ? "600" : "400",
+        fontSize: isActive ? "1.3rem": "1.1rem",
+      });
+      return (
+        <div className='content topBar'>
+            <ul className='topbar-list' >
+                {
+                    AllcomponentRoutes.map((component, index)=>(
+                        <li className='side-name' key={index}>
+                        <NavLink style={getStyles}
+                            to={(`/${component.path}`)}
+                        >{component.name}</NavLink>
+                        </li>
+                    ))
+                }
+            </ul>
+            <div className='horizontal'></div>
+        </div>
+      )
+};
+
+
+
+export {SideBar, TopBar};
