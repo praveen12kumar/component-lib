@@ -12,7 +12,7 @@ const Header = () => {
       </div>
       <div className="other-sections">
         <p onClick={()=> navigate('/installation')}>Installation</p>
-        <p>Components</p>
+        <p onClick={()=> navigate('/componentlist')}>Components</p>
       </div>
     </header>
   );

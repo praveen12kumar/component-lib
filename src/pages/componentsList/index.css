@@ -1,0 +1,38 @@
+.componentList{
+    margin-top: 4.9rem;
+}
+
+.component-listing{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.component-btn{
+    width: 10rem;
+    height: 3rem;
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
+    color: black;
+    font-size: 1.2rem;
+    font-family: poppins;
+    font-weight: 500;
+    box-shadow: 20px 20px 30px #00000041, inset -20px -20px 30px #f5dada40
+}
+
+
+.Extra{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #c1c1c1;
+    border: none;
+    box-shadow: 20px 20px 30px #6d6d6d41, inset -20px -20px 30px #fff;
+}

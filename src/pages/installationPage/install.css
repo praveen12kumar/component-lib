@@ -1,7 +1,4 @@
 .installation-container{
-    width: 80%;
-    min-height: calc(100vh - 182px);
-    margin: 0 auto;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;

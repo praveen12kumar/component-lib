@@ -5,7 +5,7 @@ import "../../css/main.css";
 const InstallationPage = () => {
   const navigate = useNavigate();
   return (
-    <div className='installation-container'>
+    <div className='installation-container content'>
       <section className="about-section">
       <h4>
           To begin using the styles provided by <span>UI Components</span>{" "}
