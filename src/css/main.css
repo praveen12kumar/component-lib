@@ -205,3 +205,23 @@ main {
   height: 100%;
   background-color: blue;
 }
+
+.sidebar-content{
+  width: 20%;
+  height: 100%;
+}
+
+.sidebar-container{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.main-content{
+  width: 80%;
+  height:100%;
+  padding: 2rem 0;
+}

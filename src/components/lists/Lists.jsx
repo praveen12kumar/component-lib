@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import SideBar from '../sideBar/SideBar';
 import "./list.css";
+import "../../css/main.css";
 const Lists = () => {
   return (
-    <div>
-      <h1>Lists</h1>
+    <div className='content sidebar-container'>
+    <div className="sidebar-content">
+      <SideBar/>
     </div>
+  <div className="main-content">
+    <h1>List</h1>
+  </div>
+</div>
   )
 }
 
